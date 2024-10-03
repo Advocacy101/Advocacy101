@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    padding: 50px;
+    text-align: center;
+}
+
+section {
+    padding: 50px;
+    background-color: white;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #004080;
+}
+
+.video-gallery {
+    display: flex;
+    justify-content: space-around;
+}
+
+.video {
+    width: 45%;
+}
+
+.article-list {
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article a {
+    color: #004080;
+    text-decoration: none;
+}
+
+#resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+#resources ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: white;
+    color: #004080;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #003060;
+    color: white;
+}
